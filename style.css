@@ -1,0 +1,165 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.noPadding{
+  padding: 0;
+}
+
+.noMargin{
+  margin: 0;
+}
+
+#navigation{
+  background-color: #286C50;
+  //background-color: rgba(40, 108, 80, 0.9);
+  //background-color: rgba(255, 255, 255, 0.5);
+  min-height: 100px;
+  width: 100%;
+  margin: 0;
+  border: none;
+}
+
+  #navigation-logo{
+    padding: 5px;
+    height: 100px;
+  }
+
+  #navigation-logo img{
+    max-height: 90px;
+  }
+
+  .navbar-default .navbar-nav > li > a{
+    color: white;
+  }
+
+  .navbar-default .navbar-nav > li > a:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar-toggle{
+    margin-top: 25px;
+    background-color: #fff;
+  }
+
+#header{
+  background: rgba(0,63,37,1), url('img/Casitas_Kinsol_outdoors.jpg');
+  background: -moz-linear-gradient(top, rgba(0,33,19,1) 0%, rgba(0,0,0,0) 25%), url('img/Casitas_Kinsol_outdoors.jpg');
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,33,19,1)), color-stop(25%, rgba(0,0,0,0))), url('img/Casitas_Kinsol_outdoors.jpg');
+  background: -webkit-linear-gradient(top, rgba(0,33,19,1) 0%, rgba(0,0,0,0) 25%), url('img/Casitas_Kinsol_outdoors.jpg');
+  background: -o-linear-gradient(top, rgba(0,33,19,1) 0%, rgba(0,0,0,0) 25%), url('img/Casitas_Kinsol_outdoors.jpg');
+  background: -ms-linear-gradient(top, rgba(0,33,19,1) 0%, rgba(0,0,0,0) 25%), url('img/Casitas_Kinsol_outdoors.jpg');
+  background: linear-gradient(to bottom, rgba(0,33,19,1) 0%, rgba(0,0,0,0) 25%), url('img/Casitas_Kinsol_outdoors.jpg');
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#000000', GradientType=0 );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover, cover;
+  min-height: 400px;
+}
+
+  #headerContain{
+    background: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    min-height: 380px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #headerContain h1{
+    color: white;
+    font-size: 240%;
+  }
+
+  #headerContain h2{
+    color: #eee;
+    font-size: 180%;
+  }
+
+  #headerContain span{
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  #btnBooking{
+    //margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+#subheader{
+  background: rgba(254,254,254,1);
+background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(49%, rgba(209,209,209,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(100%, rgba(226,226,226,1)));
+background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.thumbnail{
+  background: none;
+  border: #ccc;
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
+.thumbnail:hover{
+  background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(204,204,204,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(204,204,204,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(204,204,204,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(204,204,204,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(204,204,204,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(204,204,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc', GradientType=0 );
+  border: 1px solid #286C50;
+  background-size: cover;
+}
+
+  .tb-certified2011{
+    //background-image: url('img/Certified2011.png');
+  }
+
+  .tb-certified2016{
+    //background-image: url('img/Certified2016.png');
+  }
+
+  .tb-bravoTripadvisor{
+    //background-image: url('img/bravoTripAdvisor.png');
+  }
+
+  .tb-flipkey{
+    //background-image: url('img/flipkeyExample.png');
+  }
+
+  .thumbnail img{
+    max-height: 90px;
+  }
+
+#mainContainer{
+  background-color: #fefefe;
+  padding-bottom: 25px;
+}
+
+#footer{
+  background-color: #286C50;
+  min-height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+  #footer a{
+    color: white;
+  }
+
+.finalRow{
+  line-height: 25px;
+  vertical-align: middle;
+}
